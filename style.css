@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+
+.Main {
+    background-image: url('./website-startups.jpg.png');
+    background-repeat: no-repeat;
+    height: 830px;
+    background-size: cover;
+}
+
+.contact {
+    font-size: 60px;
+    text-align: center;
+    color: #ffffffe7;
+    padding: 10px;
+}
+
+.box {
+    margin-top: 30px;
+    height: 570px;
+    background-color: rgba(255, 228, 196, 0.808);
+    width: 700px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.headings {
+    font-size: 20px;
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 25px;
+    font-family: monospace;
+    color: rgba(219, 37, 52, 0.671);
+}
+
+.inputs {
+    width: 94%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 17px;
+}
+
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: white;
+    color: green;
+}
